@@ -9,7 +9,11 @@
 # WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
 
 package: swiftnav.sbp.observation
-description: Satellite observation messages from the device.
+description: Satellite observation messages from the device. 
+             The SBP sender ID of 0 indicates that observations
+             originated from a separate device such as a GNSS 
+             base station, correction network, or Skylark, Swift's
+             cloud GNSS correction product.
 stable: True
 public: True
 include:
